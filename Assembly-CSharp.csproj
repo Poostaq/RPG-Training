@@ -67,8 +67,9 @@
      <Compile Include="Assets\Scripts\Items\CreateNewWeapon.cs" />
      <Compile Include="Assets\Scripts\SavingAndLoading\LoadInformation.cs" />
      <Compile Include="Assets\Scripts\SavingAndLoading\SaveInformation.cs" />
-     <Compile Include="Assets\Scripts\TestGUI.cs" />
+     <Compile Include="Assets\Scripts\TsetScript.cs" />
      <Compile Include="Assets\Scripts\Turn Based Combat\TurnBaseCombatStateMachine.cs" />
+     <Compile Include="Assets\TestGUI.cs" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>C:/Private/Unity Projects/RPG Training/RPG Training/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
