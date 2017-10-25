@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CreateNewCharacter : MonoBehaviour {
 
@@ -53,7 +54,7 @@ public class CreateNewCharacter : MonoBehaviour {
 
 
         }
-        if (GUILayout.Button("Load")) { Application.LoadLevel( "tset"); }
+        if (GUILayout.Button("Load")) { SceneManager.LoadScene("tset"); }
     }
 
     private void StoreNewPlayerInfo()

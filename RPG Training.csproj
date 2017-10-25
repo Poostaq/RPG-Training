@@ -219,8 +219,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\SavingAndLoading\LoadInformation.cs" />
-    <Compile Include="Assets\SavingAndLoading\SaveInformation.cs" />
     <Compile Include="Assets\Scripts\BasePlayer\BasePlayer.cs" />
     <Compile Include="Assets\Scripts\Character Classes\BaseCharacterClass.cs" />
     <Compile Include="Assets\Scripts\Character Classes\BaseMageClass.cs" />
@@ -235,8 +233,12 @@
     <Compile Include="Assets\Scripts\Items\BaseWeapon.cs" />
     <Compile Include="Assets\Scripts\Items\CreateNewEquipment.cs" />
     <Compile Include="Assets\Scripts\Items\CreateNewWeapon.cs" />
-    <Compile Include="Assets\Scripts\TestGUI.cs" />
+    <Compile Include="Assets\Scripts\SavingAndLoading\LoadInformation.cs" />
+    <Compile Include="Assets\Scripts\SavingAndLoading\PPSerialization.cs" />
+    <Compile Include="Assets\Scripts\SavingAndLoading\SaveInformation.cs" />
+    <Compile Include="Assets\Scripts\TsetScript.cs" />
     <Compile Include="Assets\Scripts\Turn Based Combat\TurnBaseCombatStateMachine.cs" />
+    <Compile Include="Assets\TestGUI.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
