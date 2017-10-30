@@ -12,5 +12,7 @@ public class LoadInformation : MonoBehaviour {
         GameInformation.Endurance = PlayerPrefs.GetInt("ENDURANCE");
         GameInformation.Intellect = PlayerPrefs.GetInt("INTELLECT");
         GameInformation.Strength = PlayerPrefs.GetInt("STRENGTH");
+
+        if(PlayerPrefs.GetString("EQUIPMENTITEM1") != null) { GameInformation.EquipmentOne = (BaseEquipment)PPSerialization.Load("EQUIPMENTITEM1"); }
     }
 }

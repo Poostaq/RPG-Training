@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[System.Serializable]
 public class BaseStatItem : BaseItem {
 
     private int stamina;
@@ -9,11 +10,7 @@ public class BaseStatItem : BaseItem {
     private int intellect;
 
     public int Stamina { get; set; }
-
     public int Endurance { get; set; }
-
     public int Strength { get; set; }
-
-
     public int Intellect { get; set; }
 }

@@ -233,6 +233,7 @@
     <Compile Include="Assets\Scripts\Items\BaseWeapon.cs" />
     <Compile Include="Assets\Scripts\Items\CreateNewEquipment.cs" />
     <Compile Include="Assets\Scripts\Items\CreateNewWeapon.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\SavingAndLoading\LoadInformation.cs" />
     <Compile Include="Assets\Scripts\SavingAndLoading\PPSerialization.cs" />
     <Compile Include="Assets\Scripts\SavingAndLoading\SaveInformation.cs" />
