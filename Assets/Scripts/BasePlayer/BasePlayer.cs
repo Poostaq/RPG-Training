@@ -11,6 +11,8 @@ public class BasePlayer {
     private int endurance;
     private int strength;
     private int intellect;
+    private int currentXP;
+    private int requiredXP;
     
     public string PlayerName { get; set; }
     public int PlayerLevel { get; set; }
@@ -19,4 +21,6 @@ public class BasePlayer {
     public int Endurance { get; set; }
     public int Strength { get; set; }
     public int Intellect { get; set; }
+    public int CurrentXP { get; set; }
+    public int RequiredXP { get; set; }
 }

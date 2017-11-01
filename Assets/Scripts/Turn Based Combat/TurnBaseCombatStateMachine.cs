@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TurnBaseCombatStateMachine : MonoBehaviour {
 
+    private bool hasAddedXP = false;
     public enum BattleStates
     {
         START,
@@ -16,6 +17,7 @@ public class TurnBaseCombatStateMachine : MonoBehaviour {
     private BattleStates currentState;
 	// Use this for initialization
 	void Start () {
+        hasAddedXP = false;
         currentState = BattleStates.START;
 	}
 	
@@ -33,6 +35,11 @@ public class TurnBaseCombatStateMachine : MonoBehaviour {
             case (BattleStates.LOSE):
                 break;
             case (BattleStates.WIN):
+                if (!hasAddedXP)
+                {
+                    IncreaseExperience.AddExperience();
+                    hasAddedXP = true;
+                }
                 break;
         }
 	}

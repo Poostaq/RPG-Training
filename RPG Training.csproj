@@ -225,6 +225,7 @@
     <Compile Include="Assets\Scripts\Character Classes\BaseWarriorClass.cs" />
     <Compile Include="Assets\Scripts\CreatePlayer\CreateNewCharacter.cs" />
     <Compile Include="Assets\Scripts\Game Information\GameInformation.cs" />
+    <Compile Include="Assets\Scripts\IncreaseExperience.cs" />
     <Compile Include="Assets\Scripts\Items\BaseEquipment.cs" />
     <Compile Include="Assets\Scripts\Items\BaseItem.cs" />
     <Compile Include="Assets\Scripts\Items\BasePotion.cs" />
@@ -233,6 +234,7 @@
     <Compile Include="Assets\Scripts\Items\BaseWeapon.cs" />
     <Compile Include="Assets\Scripts\Items\CreateNewEquipment.cs" />
     <Compile Include="Assets\Scripts\Items\CreateNewWeapon.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\SavingAndLoading\LoadInformation.cs" />
     <Compile Include="Assets\Scripts\SavingAndLoading\PPSerialization.cs" />
