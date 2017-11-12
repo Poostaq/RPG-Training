@@ -11,5 +11,7 @@ public class BaseWarriorClass : BaseCharacterClass {
         Endurance = 12;
         Strength = 14;
         Intellect = 10;
+        Agility = 13;
+        Resistance = 15;
     }
 }

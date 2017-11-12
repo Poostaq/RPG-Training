@@ -11,5 +11,7 @@ public class BaseMageClass : BaseCharacterClass {
         Endurance = 14;
         Strength = 10;
         Intellect = 15;
+        Agility = 10;
+        Resistance = 15;
     }
 }

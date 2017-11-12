@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IncreaseExperience {
+public static class IncreaseExperience {
 
     private static int xptoGive;
+    private static LevelUp levelUpScript = new LevelUp();
+
     public static void AddExperience()
     {
         xptoGive = GameInformation.PlayerLevel * 100;
@@ -25,6 +27,8 @@ public class IncreaseExperience {
         {
             //player levelled up
             //TODO: create level up script
+            levelUpScript.LevelUpCharacter();
         }
     }
+
 }

@@ -13,6 +13,9 @@ public class TsetScript : MonoBehaviour {
         Debug.Log("Player endurance " + GameInformation.Endurance);
         Debug.Log("Player intellect " + GameInformation.Intellect);
         Debug.Log("Player strength " + GameInformation.Strength);
+        Debug.Log("Player agility " + GameInformation.Agility);
+        Debug.Log("Player resistance " + GameInformation.Resistance);
+        Debug.Log("Player gold " + GameInformation.Gold);
     }   
 	
 	// Update is called once per frame

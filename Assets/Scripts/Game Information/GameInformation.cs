@@ -19,4 +19,7 @@ public class GameInformation : MonoBehaviour {
     public static int Strength { get; set; }
     public static int CurrentXP { get; set; }
     public static int RequiredXP { get; set; }
+    public static int Agility { get; set; }
+    public static int Resistance { get; set; }
+    public static int Gold { get; set; }
 }

@@ -7,10 +7,16 @@ public class BasePlayer {
     private string playerName;
     private int playerLevel;
     private BaseCharacterClass playerClass;
-    private int stamina;
-    private int endurance;
-    private int strength;
-    private int intellect;
+
+    private int stamina; //health modifier
+    private int endurance; //energy modifier
+    private int strength; //physical damage mod
+    private int intellect; //magical damage mod
+    private int agility; //haste and crit modifier
+    private int resistance; //damage reduction  
+
+    private int gold; //in game currency
+
     private int currentXP;
     private int requiredXP;
     
@@ -21,6 +27,11 @@ public class BasePlayer {
     public int Endurance { get; set; }
     public int Strength { get; set; }
     public int Intellect { get; set; }
+    public int Agility { get; set; }
+    public int Resistance { get; set; }
+
+    public int Gold { get; set; }
+
     public int CurrentXP { get; set; }
     public int RequiredXP { get; set; }
 }
